@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+}
+
+.showcase {
+  padding: 2rem;
+}
+
+.label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #888;
+}
+
+/* navbar base */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 60px;
+  border-radius: 12px;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 0.85rem;
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: opacity 0.2s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+/* dark version */
+.dark { background: #13131f; }
+
+.dark-nav {
+  background: #1a1a2e;
+}
+
+.dark-nav .logo {
+  color: #7F77DD;
+}
+
+.dark-nav .nav-links a {
+  color: #aaaaaa;
+}
+
+.dark-nav .nav-links a.active,
+.dark-nav .nav-links a:hover {
+  color: #ffffff;
+}
+
+.dark-nav .btn {
+  background: #7F77DD;
+  color: #ffffff;
+}
+
+/* light version */
+.light { background: #e8eaf0; }
+
+.light-nav {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.light-nav .logo {
+  color: #185FA5;
+}
+
+.light-nav .nav-links a {
+  color: #888888;
+}
+
+.light-nav .nav-links a.active,
+.light-nav .nav-links a:hover {
+  color: #111111;
+}
+
+.light-nav .btn {
+  background: #185FA5;
+  color: #ffffff;
+}
