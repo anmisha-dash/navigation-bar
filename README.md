@@ -3,7 +3,7 @@
 A clean navigation bar in dark and light themes, built with pure HTML and CSS.
 
 ## Preview
-![Navbar](screenshot.png)
+![Navbar](navbarpng)
 
 ## Features
 - Dark and light theme versions
